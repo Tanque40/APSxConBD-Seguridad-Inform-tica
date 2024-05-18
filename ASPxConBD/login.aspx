@@ -12,8 +12,7 @@
                 img-src https://*;
                 script-src 'self';
                 style-src 'self';
-                upgrade-insecure-requests;
-                frame-ancestors 'self';"
+                upgrade-insecure-requests;"
          />
 </head>
 <body>
