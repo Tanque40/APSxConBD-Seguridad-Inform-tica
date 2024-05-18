@@ -9,8 +9,7 @@
         <meta http-equiv="Content-Security-Policy" 
             content="base-uri 'self';
                 default-src 'self';
-                img-src data: https:;
-                object-src 'none';
+                img-src https://*;
                 script-src 'self';
                 style-src 'self';
                 upgrade-insecure-requests;

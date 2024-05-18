@@ -6,14 +6,14 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <meta http-equiv="Content-Security-Policy" 
+   <meta http-equiv="Content-Security-Policy" 
     content="base-uri 'self';
         default-src 'self';
-        img-src data: https:;
-        object-src 'none';
+        img-src https://*;
         script-src 'self';
         style-src 'self';
-        upgrade-insecure-requests;"
+        upgrade-insecure-requests;
+        frame-ancestors 'self';"
  />
 </head>
 <body>
