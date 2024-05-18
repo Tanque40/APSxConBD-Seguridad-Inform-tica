@@ -6,15 +6,16 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Reportes</title>
-    <meta http-equiv="Content-Security-Policy" 
-    content="base-uri 'self';
-        default-src 'self';
-        img-src https://*;
-        script-src 'self';
-        style-src 'self';
-        upgrade-insecure-requests;
-        frame-ancestors 'self';"
- />
+       <meta http-equiv="Content-Security-Policy" 
+   content="base-uri 'self';
+       default-src 'self';
+       img-src https://*;
+       form-action https://*;
+       script-src 'self';
+       style-src 'self';
+       frame-ancestors 'self';
+       upgrade-insecure-requests;"
+/>
 </head>
 <body>
     <form id="form1" runat="server">

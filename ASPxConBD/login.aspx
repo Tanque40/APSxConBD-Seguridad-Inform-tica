@@ -13,6 +13,7 @@
         form-action https://*;
         script-src 'self';
         style-src 'self';
+        frame-ancestors 'self';
         upgrade-insecure-requests;"
  />
 </head>
